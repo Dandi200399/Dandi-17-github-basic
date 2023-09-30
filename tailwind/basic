@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;0,700;1,200;1,300;1,500;1,600&family=Croissant+One&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;0,700;1,200;1,300;1,500;1,600&family=Croissant+One&family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>css dasar</title>
+</head>
+
+<body class="bg-gray-600 p-5">
+    <div>
+        <!-- awal navbar -->
+        <div class="topnav bg-white overflow-hidden text-center">
+            <a class="active inline-block py-2 px-4" href="#">Femworld</a>
+            <a href="#" class="inline-block py-2 px-4">New Arrivals</a>
+            <a href="#" class="inline-block py-2 px-4">All Product</a>
+            <a href="#" class="inline-block py-2 px-4">Blogs</a>
+            <a href="#" class="inline-block py-2 px-4">Contact Us</a>
+            <a href="#" class="logo-search font-bold text-black absolute top-30 right-190">Logo Search</a>
+            <a href="#" class="get-started absolute top-30 right-50 border border-black py-1 px-2 bg-black rounded text-white">Get Started</a>
+        </div>
+        <!-- akhir navbar -->
+
+        <!-- awal content -->
+        <div class="description bg-white text-center font-Bitter serif Croissant-One cursive Poppins sans-serif">
+            <h1 class="inline-block text-center text-5xl w-500 break-words">Luxurious Executive Model</h1>
+            <p class="inline-block text-center w-450 break-words">Fashion is a form of self. expression and autonomy for a certain period. fashion describes the expression of self and increase self-confidence</p>
+        </div>
+
+        <div class="image-container bg-white text-center">
+            <img src="images/model8.png" alt="Gambar 1" class="max-w-45 h-auto m-0 10px inline-block">
+            <img src="images/model9.png" alt="Gambar 3" class="max-w-45 h-auto m-0 10px inline-block">
+            <img src="images/model11.png" alt="Gambar 2" class="max-w-45 h-auto m-0 10px inline-block">
+        </div>
+
+        <div class="new_arivals bg-white text-center font-Bitter serif Croissant-One cursive Playfair-Display serif Poppins sans-serif">
+            <h1 class="inline-block w-300">New Arrivals this Spring Season</h1>
+            <p class="inline-block w-300">Spring has arrived, we come with fashion choices that are suitable to be combined with this season, lots of formal and informal clothes.</p>
+        </div>
+
+        <!-- Add Tailwind styles for the rest of the content -->
+
+        <!-- footer -->
+        <div class="container-footer w-container">
+            <!-- ... (Rest of the HTML content) ... -->
+        </div>
+        <!-- footer end -->
+
+    </div>
+</body>
+
+</html>
